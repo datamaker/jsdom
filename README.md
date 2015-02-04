@@ -2,8 +2,8 @@
 
 A JavaScript implementation of the WHATWG DOM and HTML standards.
 
-This fork has no dependency on contextify. Be aware: the global
-scope of Javascript might be broken:
+This fork has no dependency on contextify. Be aware: **the global
+scope of Javascript is broken**:
 
 > To provide some additional context; when Brian started his work on
 > CloudBrowser, we realized that certain expectations with respect to
