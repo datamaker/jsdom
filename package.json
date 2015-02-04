@@ -1,5 +1,5 @@
 {
-  "name": "jsdom-no-vs",
+  "name": "jsdom-no-contextify",
   "version": "3.1.0",
   "description": "A JavaScript implementation of the DOM and HTML standards",
   "keywords": [
@@ -82,7 +82,6 @@
   },
   "browser": {
     "canvas": false,
-    "contextify": "./lib/jsdom/contextify-shim.js",
     "request": "browser-request"
   },
   "scripts": {

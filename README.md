@@ -2,13 +2,30 @@
 
 A JavaScript implementation of the WHATWG DOM and HTML standards.
 
+This fork has no dependency on contextify. Be aware: the global
+scope of Javascript might be broken:
+
+> To provide some additional context; when Brian started his work on
+> CloudBrowser, we realized that certain expectations with respect to
+> 'window' and the global scope didn't match the browsers.  For
+> instance, 'window === this' wasn't true at top-level.  Similarly, at
+> top-level or wherever 'this' refers to the global scope, the
+> assignable expressions 'a', 'this.a', and 'window.a' are all
+> equivalent - any assignment to either of these forms must be
+> immediately visible to all.  In addition, if I recall it correctly,
+> functions that later called into the context of a window didn't work -
+> such as setTimeout().
+
+> In short, it's absolutely essential for any JavaScript code that uses
+> callbacks, whether inlined or not.
+
+>  - Godmar
+
 ## Install
 
 ```bash
-$ npm install jsdom
+$ npm install jsdom-no-contextify
 ```
-
-If this gives you trouble with errors about installing Contextify, especially on Windows, see [below](#contextify).
 
 ## Human contact
 
