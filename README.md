@@ -19,6 +19,30 @@ scope of Javascript is broken**:
 > In short, it's absolutely essential for any JavaScript code that uses
 > callbacks, whether inlined or not.
 
+#주석처리
+
+/*define('HTMLCanvasElement', {
+  tagName: 'CANVAS',
+  attributes: [
+    'align'
+  ],
+  elementBuilder: function (element) {
+    // require node-canvas and catch the error if it blows up
+    try {
+      var canvas = new (require('canvas'))(0,0);
+      for (var attr in element) {
+        if (!canvas[attr]) {
+          canvas[attr] = element[attr];
+        }
+      }
+      return canvas;
+    } catch (e) {
+      return element;
+    }
+  }
+});*/
+
+
 >  - Godmar
 
 ## Install

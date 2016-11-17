@@ -1,8 +1,12 @@
 .DS_Store
 .svn
 .*.swp
+.idea
 gmon.out
 v8.log
 node_modules
 test/worker-bundle.js
 npm-debug.log
+.idea/jsdom.iml
+.idea/modules.xml
+.idea/workspace.xml
