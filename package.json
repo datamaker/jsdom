@@ -1,5 +1,5 @@
 {
-  "name": "jsdom-no-contextify",
+  "name": "meteor-react-ssr-jsdom",
   "version": "3.1.0",
   "description": "A JavaScript implementation of the DOM and HTML standards",
   "keywords": [
@@ -52,9 +52,9 @@
   ],
   "license": {
     "type": "MIT",
-    "url": "http://github.com/tmpvar/jsdom/blob/master/LICENSE.txt"
+    "url": "http://github.com/datamaker/jsdom/blob/master/LICENSE.txt"
   },
-  "repository": "crealogix/jsdom",
+  "repository": "datamaker/jsdom",
   "dependencies": {
     "browser-request": ">= 0.3.1 < 0.4.0",
     "cssom": ">= 0.3.0 < 0.4.0",
